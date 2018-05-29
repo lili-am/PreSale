@@ -32,9 +32,9 @@ This smart contract manages the vesting for founders. There is 5 parameters in t
 
 This is how the vesting contract works :
 ```
-+					|
-+					|
-+					|                     °   °   °   °   °   ° 
++                   |
++                   |
++                   |                     °   °   °   °   °   ° 
 +                   |                  °
 +                   |               °
 +                   |            °
