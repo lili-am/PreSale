@@ -1,4 +1,4 @@
-#Lili Smart Contacts Crowdsale
+# Lili Smart Contacts Crowdsale
 
 We used [OpenZeppelin](https://github.com/OpenZeppelin/zeppelin-solidity/) smart contracts as they are gold standards for solidity and ICO development.
 
@@ -7,12 +7,6 @@ We used [OpenZeppelin](https://github.com/OpenZeppelin/zeppelin-solidity/) smart
 #### Crowdsale
 
 This contract is the one receiving the tokens, and is connected to the *WhitelistedGateway* and *PendingContributions*. Depending if the contributor is whitelisted or not, the funds are sent to the smart contract *WhitelistedGateway* or the smart contract *PendingContributions*. Funds coming from whitelisted contributors are finally sent to the vault address.
-
-Parameters (can be modified in migrations/2_deploy_whitelist_crowdsale.js) : 
-- **START_BLOCK** : the starting block of the ICO
-- **END_BLOCK** : the ending block of the ICO
-- **VAULT** : the ethereum account receiving funds
-- **MIN_CONTRIB** : the minimum amount to participate (in wei)
 
 #### Gateway
 
